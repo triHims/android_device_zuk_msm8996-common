@@ -292,10 +292,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.zuk_8996
 
+<<<<<<< HEAD
 # LiveDisplay
 #PRODUCT_PACKAGES += \
 #    vendor.lineage.livedisplay@2.0-service-sdm
 
+=======
+>>>>>>> 5bd49e6d... msm8996-common: Drop livedisplay
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
