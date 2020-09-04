@@ -543,6 +543,12 @@ vendor/bin/imsqmidaemon|0e5cf08e7cbd4e34fb69e6644a8c7d5e6715c306
 vendor/lib64/hw/keystore.msm8996.so
 vendor/lib/hw/keystore.msm8996.so
 
+# Listen
+vendor/lib64/hw/sound_trigger.primary.msm8996.so
+vendor/lib/hw/sound_trigger.primary.msm8996.so
+vendor/lib/libadpcmdec.so
+vendor/lib/libsmwrapper.so
+
 # Media - from LA.UM.9.6.2.r1-03600-89xx.0
 system_ext/lib/extractors/libmmparserextractor.so|f652313d65d5c629dd62e20e62f461f6ec926e8e
 lib/libFileMux.so|4e05cd5e9913311ad17543d204adcd6d60cc8754
