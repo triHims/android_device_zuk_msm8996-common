@@ -520,9 +520,9 @@ service thermal-engine /vendor/bin/thermal-engine -c /vendor/etc/thermal-engine.
     group system root diag
     writepid /dev/cpuset/system-background/tasks
 
-service adsprpcd /vendor/bin/adsprpcd
+service vendor.adsprpcd /system/vendor/bin/adsprpcd
     class main
-    user media
+    user system
     group media
     writepid /dev/cpuset/system-background/tasks
 
