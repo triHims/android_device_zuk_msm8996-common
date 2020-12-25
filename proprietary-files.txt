@@ -754,6 +754,12 @@ vendor/lib64/libril-qc-radioconfig.so|3ee0fa2ca0a2419a2629dfea6c7b4078d9ae11f6
 vendor/lib64/librilqmiservices.so|c61998e2944ff427a9d06c0ab5db83986db412ea
 vendor/radio/qcril_database/qcril.db|43b7d5e7ededc9cd5c0b1f7a8941d21d4eb0c9c1
 
+# RTP Libs - from vangogh:11/RKQ1.200826.002
+system_ext/lib/libmmrtpdecoder.so|e50c35366bd428ac29e8a828cfd6b22aa08a0a55
+system_ext/lib/libmmrtpencoder.so|5614934db1f7302b91abf5ed123132b346b24038
+system_ext/lib64/libmmrtpdecoder.so|5f468a1a97b28fa5212205e57b849605d5cb6b10
+system_ext/lib64/libmmrtpencoder.so|42b99f85469607c6c03d3701885e5f198305b971
+
 # Sensors - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/bin/sensors.qti|d87eb74b701f9e047c8ed7deb5fcd43a5639572a
 vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
