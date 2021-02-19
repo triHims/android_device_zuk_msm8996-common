@@ -121,5 +121,56 @@
             Id="0x00001301" Enable="true" Target="msm8996"
             Resources="0x40800000, 0x4E0, 0x40800100, 0x4E0, 0x40804000, 0x4E0, 0x40804100, 0x4E0, 0x4280C000, 0x156,
             0x42810000, 0x156, 0x42814000, 0x1E4F"/>
+
+	<!-- camera general -->
+        <!-- B CPU - Cluster min freq ~1.4 Ghz -->
+        <!-- L CPU - Cluster min freq ~1.4 Ghz -->
+        <!-- B CPU - Cluster max freq ~1.4 Ghz -->
+        <!-- L CPU - Cluster max freq ~1.4 Ghz -->
+        <!-- GPU - min freq 510 Mhz -->
+        <!-- GPU - max freq 510 Mhz -->
+        <!-- GPUBW freq 775 Mhz-->
+        <Config
+            Id="0x00001331" Enable="true" Timeout="0" Target="msm8996"
+            Resources="0x40800000, 0x579, 0x40800100, 0x579, 0x40804000, 0x579, 0x40804100, 0x579,
+            0x4280C000, 0x203, 0x42810000, 0x203, 0x42814000, 0x1E4F"/>
+
+        <!-- camera 60fps -->
+        <!-- B CPU - Cluster min freq ~1.4 Ghz -->
+        <!-- L CPU - Cluster min freq ~1.4 Ghz -->
+        <!-- B CPU - Cluster max freq ~1.4 Ghz -->
+        <!-- L CPU - Cluster max freq ~1.4 Ghz -->
+        <!-- GPU - min freq 510 Mhz -->
+        <!-- GPU - max freq 510 Mhz -->
+        <!-- GPUBW freq 775 Mhz-->
+        <Config
+            Id="0x00001332" Enable="true" Timeout="0" Target="msm8996"
+            Resources="0x40800000, 0x579, 0x40800100, 0x579, 0x40804000, 0x579, 0x40804100, 0x579,
+            0x4280C000, 0x203, 0x42810000, 0x203, 0x42814000, 0x1E4F"/>
+
+        <!-- camera HFR -->
+        <!-- B CPU - Cluster min freq ~1.4 Ghz -->
+        <!-- L CPU - Cluster min freq ~1.4 Ghz -->
+        <!-- B CPU - Cluster max freq ~1.4 Ghz -->
+        <!-- L CPU - Cluster max freq ~1.4 Ghz -->
+        <!-- GPU - min freq 510 Mhz -->
+        <!-- GPU - max freq 510 Mhz -->
+        <!-- GPUBW freq 775 Mhz-->
+        <Config
+            Id="0x00001333" Enable="true" Timeout="0" Target="msm8996"
+            Resources="0x40800000, 0x579, 0x40800100, 0x579, 0x40804000, 0x579, 0x40804100, 0x579,
+            0x4280C000, 0x203, 0x42810000, 0x203, 0x42814000, 0x1E4F"/>
+        <!-- camera 480fps - HFR -->
+        <!-- B CPU - Cluster min freq ~1.4 Ghz -->
+        <!-- L CPU - Cluster min freq ~1.4 Ghz -->
+        <!-- B CPU - Cluster max freq ~1.4 Ghz -->
+        <!-- L CPU - Cluster max freq ~1.4 Ghz -->
+        <!-- GPU - min freq 510 Mhz -->
+        <!-- GPU - max freq 510 Mhz -->
+        <!-- GPUBW freq 775 Mhz-->
+        <Config
+            Id="0x00001334" Enable="true" Timeout="0" Target="msm8996"
+            Resources="0x40800000, 0x579, 0x40800100, 0x579, 0x40804000, 0x579, 0x40804100, 0x579,
+            0x4280C000, 0x203, 0x42810000, 0x203, 0x42814000, 0x1E4F"/>
     </Powerhint>
 </HintConfigs>
