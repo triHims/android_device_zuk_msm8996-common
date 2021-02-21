@@ -374,7 +374,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <name>IUsbRestrict</name>
             <instance>default</instance>
         </interface>
-    </hal-->
+    </hal>
     <hal format="hidl">
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>
