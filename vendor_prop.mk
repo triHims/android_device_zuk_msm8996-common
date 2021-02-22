@@ -103,6 +103,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.wfd.nohdcp=1 \
     debug.sf.enable_hwc_vds=1
 
+# IMS stuffs
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.vendor.vt.supported=1 \
+    persist.radio.VT_HYBRID_ENABLE=1
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.enc.disable.pq=true \
