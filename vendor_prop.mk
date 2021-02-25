@@ -156,7 +156,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.data_con_rprt=1 \
     persist.vendor.radio.custom_ecc=1 \
     persist.vendor.radio.rat_on=combine \
-    persist.radio.calls.on.ims=1 \
     persist.dbg.ims_volte_enable=1
 
 # RmNet Data
