@@ -172,9 +172,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl:64 \
     android.hardware.graphics.allocator@2.0-service \
-    android.hardware.graphics.composer@2.1-impl \
     android.hardware.graphics.composer@2.1-service:64 \
-    android.hardware.graphics.mapper@2.1-impl \
+    android.hardware.graphics.mapper@2.0-impl-2.1 \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     vendor.display.config@2.0.vendor \
@@ -187,9 +186,8 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
     libhwc2on1adapter \
     libgenlock \
-    liboverlay \
     libtinyxml \
-    libqdMetaData.system \
+    libqdMetaData \
     libvulkan
 
 PRODUCT_COPY_FILES += \
